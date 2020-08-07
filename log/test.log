@@ -64,6 +64,7 @@ Started GET "/hello_world" for 127.0.0.1 at 2020-08-05 05:45:09 +0000
   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
 Started GET "/hello_world" for 127.0.0.1 at 2020-08-05 05:45:24 +0000
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+<<<<<<< HEAD
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
@@ -90,3 +91,5 @@ Processing by StaticController#hello_world as HTML
   Rendered static/hello_world.html.erb within layouts/application (2.2ms)
 Completed 200 OK in 331ms (Views: 321.4ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+=======
+>>>>>>> a05da134c69ca88034c155ee8fe254607e58b7dc
